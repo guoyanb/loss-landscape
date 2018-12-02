@@ -18,7 +18,6 @@ The random direction(s) and loss surface values are stored in HDF5 (`.h5`) files
 - [h5py 2.8.0](http://docs.h5py.org/en/stable/build.html#install)
 - [matplotlib 2.0.2](https://matplotlib.org/users/installing.html)
 - [scipy 0.19](https://www.scipy.org/install.html)
-
 **Pre-trained models**:
 The code accepts pre-trained PyTorch models for the CIFAR-10 dataset.
 To load the pre-trained model correctly, the model file should contain `state_dict`, which is saved from the `state_dict()` method.
